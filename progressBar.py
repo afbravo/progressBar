@@ -8,7 +8,7 @@ print(os.get_terminal_size())
 cursor.hide()
 
 title = "Downloading Python 3.6.1"
-scale = 1
+scale = 2
 progress = "#"
 missing = "."
 
@@ -19,7 +19,5 @@ for i in range(0, 101):
     print(toPrint, end="\r")
     time.sleep(0.1)
 print(toPrint)
-print(len(toPrint))
-
 cursor.show()
 
